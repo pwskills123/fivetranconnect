@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: imran
+    database: fivetran_database
+    schema: SQL_SERVER_RDS_DBO
+    tables:
+      - name: customers

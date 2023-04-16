@@ -1,1 +1,1 @@
-select * from SQL_SERVER_RDS_DBO.customers
+select * from {{ source('imran','customers')}}
